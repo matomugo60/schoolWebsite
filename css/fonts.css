@@ -1,0 +1,10 @@
+/* Garamond font for premium feel */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+/* Montserrat for clean sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* Set font variables */
+:root {
+    --font-main: 'EB Garamond', serif;
+    --font-secondary: 'Montserrat', sans-serif;
+}
