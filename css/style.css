@@ -707,3 +707,26 @@ tr:hover {
         padding: 10px 20px;
     }
 }
+
+.logo svg {
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+    transition: all 0.3s ease;
+}
+
+.logo:hover svg {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 5px rgba(212, 175, 55, 0.5));
+}
+
+/* If using the Wikimedia image */
+.logo img {
+    height: 50px;
+    margin-right: 15px;
+    transition: all 0.3s ease;
+}
+
+.logo:hover img {
+    transform: scale(1.1);
+}
